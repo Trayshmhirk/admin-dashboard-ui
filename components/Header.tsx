@@ -11,7 +11,7 @@ import {
 
 const Header = () => {
    return (
-      <header className="bg-primary dark:bg-slate-700 text-primary-foreground py-3 px-6 flex items-center justify-between">
+      <header className="w-full bg-primary dark:bg-slate-700 text-primary-foreground py-3 px-6 flex items-center justify-between">
          <Link href="/" className="text-xl font-medium">
             Logo
          </Link>

@@ -20,7 +20,7 @@ import Link from "next/link";
 
 const Sidebar = () => {
    return (
-      <aside className="hidden md:flex w-[300px]">
+      <aside className="hidden md:flex w-[300px] flex-shrink-0">
          <Command className="bg-secondary rounded-none">
             <CommandInput placeholder="Type a command or search..." />
             <CommandList>
