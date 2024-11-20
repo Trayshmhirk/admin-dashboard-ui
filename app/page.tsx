@@ -5,7 +5,7 @@ import AnalyticsChart from "@/components/dashboard/AnalyticsChart";
 
 export default function Home() {
    return (
-      <div className="flex flex-col gap-7 p-5">
+      <div className="flex flex-col gap-7">
          <div className="flex flex-col md:flex-row justify-between gap-5">
             <DashboardCard
                title="Post"

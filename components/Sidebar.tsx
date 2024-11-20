@@ -33,7 +33,7 @@ const Sidebar = () => {
                      </Link>
                   </CommandItem>
                   <CommandItem>
-                     <Link href="/post" className="flex items-center">
+                     <Link href="/posts" className="flex items-center">
                         <Newspaper className="mr-2 h-4 w-4" />
                         Posts
                      </Link>
