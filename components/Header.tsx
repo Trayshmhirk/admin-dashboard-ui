@@ -12,7 +12,7 @@ import ThemeToggler from "./ThemeToggler";
 
 const Header = () => {
    return (
-      <header className="w-full bg-primary dark:bg-slate-700 text-primary-foreground py-3 px-6 flex items-center justify-between">
+      <header className="w-full bg-slate-200 dark:bg-slate-700 text-black dark:text-white py-3 px-6 flex items-center justify-between">
          <Link href="/" className="text-xl font-medium">
             Logo
          </Link>
