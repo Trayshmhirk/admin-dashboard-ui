@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Sidebar from "@/components/Sidebar";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 // import { ThemeProvider as NextThemesProvider } from "next-themes";
@@ -25,15 +23,7 @@ export default function RootLayout({
                enableSystem={true}
                storageKey="dashboard-theme"
             >
-               <Sidebar />
-
-               <div className="flex-grow flex flex-col">
-                  <Header />
-                  <main className="h-full w-full md:max-w-[1140px] p-5">
-                     {children}
-                  </main>
-               </div>
-
+               {children}
                <Toaster />
             </ThemeProvider>
          </body>
